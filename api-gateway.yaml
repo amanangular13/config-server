@@ -21,10 +21,5 @@ spring:
             - AddRequestHeader=X-custom-header, Aman
             - name: AuthenticationFilter
 
-eureka:
-  client:
-    service-url:
-      defaultZone: http://localhost:8761/eureka
-
 jwt:
   secretKey: asdklfjbaslkjefalskdjbfksadjbfkasjbdfksjdfkjsbdkfjasbkdjfbksajdbfkssdcfasdf
